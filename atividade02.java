@@ -30,7 +30,7 @@ class Pessoa {
     }
 }
 
-public class Main {
+public class atividade02  {
     public static void main(String[] args) {
         Pessoa p1 = new Pessoa("Ana Silva", 28, 1.65, 60.0, "Desenvolvedora");
 

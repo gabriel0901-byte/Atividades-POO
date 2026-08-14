@@ -21,7 +21,7 @@ class Personagem {
     }
 }
 
-public class teste {
+public class atividade01 {
     public static void main(String[] args) {
         Personagem p1 = new Personagem("Radagon", 10, 15);
 
