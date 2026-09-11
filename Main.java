@@ -1,4 +1,3 @@
-package Associações;
 class Processador{
     String modelo;
     

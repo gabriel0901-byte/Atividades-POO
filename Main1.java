@@ -1,36 +1,27 @@
-package Associações;
 class Comodo {
-    private String nome;
+    String nome;
 
     public Comodo(String nome) {
         this.nome = nome;
     }
-
-    public String getNome() {
-        return nome;
-    }
 }
 
 class Pessoa {
-    private String nome;
+    String nome;
 
     public Pessoa(String nome) {
         this.nome = nome;
     }
-
-    public String getNome() {
-        return nome;
-    }
 }
 
 class Casa {
-    private String endereco;
-    private Comodo comodo;
-    private Pessoa morador;
+    String endereco;
+    Comodo comodo;   
+    Pessoa morador;  
 
     public Casa(String endereco, String nomeComodo) {
         this.endereco = endereco;
-        this.comodo = new Comodo(nomeComodo); 
+        this.comodo = new Comodo(nomeComodo);
     }
 
     public void adicionarMorador(Pessoa pessoa) {
@@ -39,8 +30,8 @@ class Casa {
 
     public void exibirInformacoes() {
         System.out.println("Endereço: " + endereco);
-        System.out.println("Cômodo: " + comodo.getNome());
-        System.out.println("Morador: " + morador.getNome());
+        System.out.println("Cômodo: " + comodo.nome);
+        System.out.println("Morador: " + morador.nome);
         System.out.println();
     }
 }
